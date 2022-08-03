@@ -46,7 +46,7 @@ def gmail_send_message(subject,html_body,receiver_address):
         print("Building email object...")
         message = MIMEMultipart()
         message['To'] = receiver_address
-        message['From'] = 'flaskbp99@gmail.com'
+        message['From'] = 'GMAIL-ADDRESS-USED-FOR-SETTING-UP-GMAIL-APP'
         message['Subject'] = subject
 
         # Create the plain-text and HTML version of your message
