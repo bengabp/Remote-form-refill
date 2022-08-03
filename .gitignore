@@ -1,0 +1,6 @@
+
+vscode/
+__pycache__/
+client_secret.json
+token.pickle
+.gitignore
